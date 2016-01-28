@@ -1,5 +1,58 @@
-/* INDEX */
+html {
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
 
+/* INDEX */
+@font-face
+{
+    font-family: WingDings;
+    src: url('../fonts/wingdings.ttf');
+}
+body.index
+{
+    background:url('../images/chicken.gif');
+    background-size: 450px 450px;
+    background-repeat: repeat;
+    padding-top: 40px;
+}
+
+.indexheader
+{
+    font-family: Comic Sans MS;
+    text-align:center;
+    color:purple;
+    font-size:72px;
+}
+.potwmsg
+{
+    text-align: center;
+    font-family: Comic Sans MS;
+    color:orange;
+    font-size: 36px;
+}
+.potwimg
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+.ccslink
+{
+    text-align:center;
+    color:yellow;
+    font-size:72px;
+}
+.winglink
+{
+    text-align:center;
+    color: green;
+    font-size:72px;
+    font-family: WingDings
+}
 /* END INDEX /*
 
 
