@@ -17,7 +17,7 @@ body.index
 
 .indexheader
 {
-    font-family: Comic Sans MS;
+    font-family: Comic Sans MS, Marker Felt, sans-serif;
     text-align:center;
     color:purple;
     font-size:72px;
@@ -25,7 +25,7 @@ body.index
 .potwmsg
 {
     text-align: center;
-    font-family: Comic Sans MS;
+    font-family: Comic Sans MS, Marker Felt, sans-serif;
     color:orange;
     font-size: 36px;
 }
@@ -41,7 +41,7 @@ body.index
     text-align:center;
     color:yellow;
     font-size:72px;
-    font-family: Comic Sans MS;
+    font-family: Comic Sans MS, Marker Felt, sans-serif;
 }
 .wingmasterlink
 {
@@ -61,8 +61,7 @@ body.coldstorage
     background-size: 610px 400px;
     background-repeat: repeat;
     padding-top: 40px;
-
-    font-family: Comic Sans MS;
+    font-family: Comic Sans MS, Marker Felt, sans-serif;
 }
 
 .ccsheader
@@ -101,7 +100,7 @@ body.wingmaster
     text-align:center;
     color:white;
     font-size:72px;
-    font-family:Comic Sans MS;
+    font-family: Comic Sans MS, Marker Felt, sans-serif;
 }
 
 .wingmasterbook
