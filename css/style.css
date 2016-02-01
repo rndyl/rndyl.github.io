@@ -6,7 +6,7 @@
 }
 body.index
 {
-    background:url('../images/chicken.gif');
+    background:url('../images/index/chicken.gif');
     background-size: 450px 450px;
     background-repeat: repeat;
     padding-top: 40px;
@@ -53,7 +53,7 @@ body.index
 /* COPYPASTA COLD STORAGE */
 body.coldstorage
 {
-    background: url("../images/kjclap.gif");
+    background: url("../images/coldstorage/kjclap.gif");
     background-size: 610px 400px;
     background-repeat: repeat;
     padding-top: 40px;
@@ -84,15 +84,15 @@ body.coldstorage
 
 
 /* LORD OF WINGDINGS */
-body.wingdings
+body.wingmaster
 {
-    background: url("../images/ohgod.gif");
+    background: url("../images/wingmaster/ohgod.gif");
     background-size: 450px 450px;
     background-repeat: repeat;
     padding-top: 40px;
 }
 
-.wingdingsheader
+.wingmasterheader
 {
     text-align:center;
     color:white;
@@ -100,7 +100,7 @@ body.wingdings
     font-family:Comic Sans MS;
 }
 
-.wingdingsbook
+.wingmasterbook
 {
     color: white;
     font-size: 24;
