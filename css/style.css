@@ -1,8 +1,11 @@
 /* INDEX */
 @font-face
 {
-    font-family: WingDings;
-    src: url('../fonts/wingdings.ttf');
+    font-family: 'WingDings';
+    src: url('/fonts/wingdings/wingdings.eot#') format('eot'),
+         url('/fonts/wingdings/wingdings.woff') format('woff'),
+         url('/fonts/wingdings/wingdings.ttf') format('truetype'),
+         url('/fonts/wingdings/Wingdings.svg#WinDings') format('svg');
 }
 body.index
 {
@@ -33,18 +36,19 @@ body.index
     margin-right: auto;
     width: 800px;
 }
-.ccslink
+.coldstoragelink
 {
     text-align:center;
     color:yellow;
     font-size:72px;
+    font-family: Comic Sans MS;
 }
-.winglink
+.wingmasterlink
 {
     text-align:center;
     color: green;
     font-size:72px;
-    font-family: WingDings
+    font-family: WingDings;
 }
 /* END INDEX /*
 
