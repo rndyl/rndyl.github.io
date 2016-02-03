@@ -124,6 +124,20 @@ body.wingmaster
 
 
 
+/* GUNNAR'S HOMEPAGE */
+body.gunnar
+{
+    background: url("..images/gunnar/gunnarbg.gif");
+    font-family: Comic Neue, Marker Felt, sans-serif;
+}
+.gunnarheader
+{
+
+}
+/* END GUNNAR'S HOMEPAGE /*
+
+
+
 /* TRUMPETAD */
 .trumpetadheader
     {
