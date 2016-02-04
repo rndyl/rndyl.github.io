@@ -46,6 +46,10 @@ body.index
     margin-right: auto;
     width: 800px;
 }
+#googlead
+{
+    align-items: center;
+}
 .coldstoragelink
 {
     text-align:center;
