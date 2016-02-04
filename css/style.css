@@ -1,10 +1,10 @@
 @font-face
 {
     font-family: 'WingDings';
-    src: url('/fonts/wingdings/wingdings.eot#') format('eot'),
-         url('/fonts/wingdings/wingdings.woff') format('woff'),
-         url('/fonts/wingdings/wingdings.ttf') format('truetype'),
-         url('/fonts/wingdings/Wingdings.svg#WinDings') format('svg');
+    src: url('../fonts/wingdings/wingdings.eot#') format('eot'),
+         url('../fonts/wingdings/wingdings.woff') format('woff'),
+         url('../fonts/wingdings/wingdings.ttf') format('truetype'),
+         url('../fonts/wingdings/Wingdings.svg#WinDings') format('svg');
 }
 
 @font-face {
@@ -46,10 +46,6 @@ body.index
     margin-right: auto;
     width: 800px;
 }
-#googlead
-{
-    align-items: center;
-}
 .coldstoragelink
 {
     text-align:center;
@@ -63,6 +59,10 @@ body.index
     color: green;
     font-size:72px;
     font-family: WingDings;
+}
+#googlead
+{
+text-align: center;
 }
 /* END INDEX /*
 
