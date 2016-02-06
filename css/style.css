@@ -78,7 +78,7 @@ body.coldstorage
     font-family: Comic Neue, Marker Felt, sans-serif;
 }
 
-.coldstorageheader
+#coldstorageheader
 {
     text-align:center;
     color:orange;
@@ -109,7 +109,7 @@ body.wingmaster
     padding-top: 40px;
 }
 
-.wingmasterheader
+#wingmasterheader
 {
     text-align:center;
     color:white;
@@ -117,7 +117,7 @@ body.wingmaster
     font-family: Comic Neue, Marker Felt, sans-serif;
 }
 
-.wingmasterbook
+#wingmasterbook
 {
     color: white;
     font-size: 24;
@@ -134,7 +134,7 @@ body.gunnar
     background: url("..images/gunnar/gunnarbg.gif");
     font-family: Comic Neue, Marker Felt, sans-serif;
 }
-.gunnarheader
+#gunnarheader
 {
 
 }
@@ -143,7 +143,7 @@ body.gunnar
 
 
 /* TRUMPETAD */
-.trumpetadheader
+#trumpetadheader
     {
         text-align: center;
         font-family: impact;
@@ -156,7 +156,7 @@ body.gunnar
         margin-right: auto;
         width:300px;
     }
-.trumpetadcontact
+#trumpetadcontact
     {
         text-align:center;
         font-family:Impact;
