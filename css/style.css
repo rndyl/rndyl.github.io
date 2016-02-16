@@ -32,14 +32,14 @@ body.index
     color:purple;
     font-size:72px;
 }
-.potwmsg
+#potwmsg
 {
     text-align: center;
     font-family: Comic Neue, Marker Felt, sans-serif;
     color:orange;
     font-size: 36px;
 }
-.potwimg
+#potwimg
 {
     display: block;
     margin-left: auto;
