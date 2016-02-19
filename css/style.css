@@ -168,7 +168,7 @@ body.gunnar
     }
 #trumpetpic1
 {
-    display: hidden;
+    display: none;
 }
 #trumpetpic2
 {
@@ -176,10 +176,10 @@ body.gunnar
 }
 #trumpetpic3
 {
-    display: hidden;
+    display: none;
 }
 #trumpetpic5
 {
-    display: hidden;
+    display: none;
 }
 /* END TRUMPETAD /*
