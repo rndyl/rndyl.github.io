@@ -27,7 +27,7 @@ body.index
 
 #indexaudio
 {
-    
+
 }
 .indexheader
 {
@@ -135,12 +135,15 @@ body.wingmaster
 /* GUNNAR'S HOMEPAGE */
 body.gunnar
 {
-    background: url("..images/gunnar/gunnarbg.gif");
+    background: url("../images/gunnar/ohgod.gif");
     font-family: Comic Neue, Marker Felt, sans-serif;
 }
 #gunnarheader
 {
-
+    text-align: center;
+    font-size: 150px;
+    font-family: Comic Neue, Marker Felt, sans-serif;
+    color: white;
 }
 /* END GUNNAR'S HOMEPAGE /*
 
@@ -172,7 +175,7 @@ body.gunnar
 }
 #trumpetpic2
 {
-    
+
 }
 #trumpetpic3
 {
