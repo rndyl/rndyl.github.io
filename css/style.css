@@ -148,6 +148,22 @@ body.gunnar
 #suicide
 {
     text-align: center;
-    
+
 }
 /* END GUNNAR'S HOMEPAGE /*
+
+/* MUSIC */
+.musiclist
+{
+    list-style: none;
+}
+#musicheader
+{
+    text-align:center;
+    font-size:72px;
+}
+#musicfiles
+{
+    font-size:12px
+}
+/* MUSIC *.
