@@ -209,6 +209,6 @@ body
 @keyframes bodyspin {
   0%   {transform: rotate(0deg)}
   25%  {transform: rotate(90deg)}
-  75%  {transform: rotate(1800deg)}
+  75%  {transform: rotate(180deg)}
   100% {transform: rotate(356deg)}
 }
