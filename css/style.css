@@ -168,7 +168,7 @@ body.gunnar
 }
 /* MUSIC */
 
-/* Begin spinning everything on hover except important things */
+
 {
   transition: 200ms linear all;
 }
@@ -180,9 +180,6 @@ body:hover, .content:hover {
   transform: none;
   -webkit-transform: none;
 }
-/* End spinning everything on hover except important things */
-
-/* Begin spinning things */
 @-webkit-keyframes spin {
   0%   {-webkit-transform:rotate(0deg);}
   100% {-webkit-transform:rotate(359deg);}
@@ -191,27 +188,27 @@ body:hover, .content:hover {
   0%   {transform:rotate(0deg);}
   100% {transform:rotate(359deg);}
 }
-
 {
   font-size: 100%;
   border-radius: 500px;
   border: 2px solid black;
-  animation: spin 2s linear infinite !important;
-  -webkit-animation: spin 2s linear infinite !important;
+  animation: spin 10s linear infinite !important;
+  -webkit-animation: spin 10s linear infinite !important;
 }
-body {
-  -webkit-animation: bodyspin 1s linear infinite;
-  animation: bodyspin 1s linear infinite;
+body
+{
+  -webkit-animation: bodyspin 10ss linear infinite;
+  animation: bodyspin 10s linear infinite;
 }
 @-webkit-keyframes bodyspin {
   0%   {-webkit-transform: rotate(0deg)}
-  25%  {-webkit-transform: rotate(-30deg)}
-  75%  {-webkit-transform: rotate(30deg)}
-  100% {-webkit-transform: rotate(0deg)}
+  25%  {-webkit-transform: rotate(90deg)}
+  75%  {-webkit-transform: rotate(180deg)}
+  100% {-webkit-transform: rotate(359deg)}
 }
 @keyframes bodyspin {
   0%   {transform: rotate(0deg)}
-  25%  {transform: rotate(-30deg)}
-  75%  {transform: rotate(30deg)}
-  100% {transform: rotate(0deg)}
+  25%  {transform: rotate(90deg)}
+  75%  {transform: rotate(1800deg)}
+  100% {transform: rotate(356deg)}
 }
