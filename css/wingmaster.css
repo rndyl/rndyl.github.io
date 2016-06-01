@@ -1,0 +1,39 @@
+@font-face
+{
+    font-family: 'WingDings';
+    src: url('../fonts/wingdings/wingdings.eot#') format('eot'),
+         url('../fonts/wingdings/wingdings.woff') format('woff'),
+         url('../fonts/wingdings/wingdings.ttf') format('truetype'),
+         url('../fonts/wingdings/Wingdings.svg#WinDings') format('svg');
+}
+
+@font-face {
+  font-family: 'Comic Neue';
+  src: url('../fonts/comicneue/ComicNeue-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/comicneue/ComicNeue-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/comicneue/ComicNeue-Bold.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/comicneue/ComicNeue-Bold.woff2') format('woff2'), /* Even Moderner Browsers */
+       url('../fonts/comicneue/ComicNeue-Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+body.wingmaster
+{
+    background: url("../images/wingmaster/ohgod.gif");
+    background-size: 450px 450px;
+    background-repeat: repeat;
+    padding-top: 40px;
+}
+
+#wingmasterheader
+{
+    text-align:center;
+    color:white;
+    font-size:72px;
+    font-family: Comic Neue, Marker Felt, sans-serif;
+}
+
+#wingmasterbook
+{
+    color: white;
+    font-size: 24;
+    font-family: WingDings;
+}
